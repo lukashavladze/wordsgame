@@ -104,8 +104,8 @@ team_first = "First Team"
 team_second = "Second Team"
 
 # labels for team names
-team1_label = tkinter.Label(window, text=team_first, font=32, background="gray", width=10, relief="solid").place(x=100, y=200)
-team2_label = tkinter.Label(window, text=team_second, font=32, background="gray", width=10, relief="solid").place(x=450, y=200)
+team1_label = tkinter.Label(window, text=team_first, font=28, background="gray", width=12, relief="solid").place(x=50, y=200)
+team2_label = tkinter.Label(window, text=team_second, font=28, background="gray", width=12, relief="solid").place(x=450, y=200)
 
 # making timer labels
 ScoreL = tkinter.Label(window, text=30)
